@@ -1,0 +1,98 @@
+.slider {
+    background-image: url("../../img/slider-fon-office.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+.slider__item {
+    outline: none;
+}
+.slider__item-content {
+    text-align: center;
+    padding-top: 110px;
+    max-width: 665px;
+    margin: 0 auto;
+}
+.slider__title {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    margin-bottom: 22px;
+}
+.slider__text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #d3d2d2;
+    padding: 0 20px;
+}
+.default-btn {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 30px 8px 24px;
+    border: 1px solid #ffc222;
+    border-right-width: 20px;
+    position: relative;
+    outline: none;
+}
+.default-btn:after {
+    position: absolute;
+    font-family: 'icomoon';
+    content: "\f105";
+    top: 50%;
+    transform: translateY(-50%);
+    right: -12px;
+}
+.slider__btn {
+    margin-top: 45px;
+}
+.slider__inner {
+    position: relative;
+}
+.slick-btn {
+    position: absolute;
+    top: 70%;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    outline: none;
+    background-color: #ffc222;
+}
+.slick-btn.slick-disabled {
+    cursor: default;
+    background-color: transparent;
+}
+.slick-btn:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'icomoon';
+    color: #fff;
+
+}
+.slick-next {
+    right: 0;
+}
+.slick-next:before {
+    content: "\f105";
+
+}
+.slick-prev {
+    left: 0;
+}
+.slick-prev:before {
+    content: "\f104";
+
+}
